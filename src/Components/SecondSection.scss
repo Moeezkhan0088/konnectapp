@@ -1,0 +1,12 @@
+@import 'bootstrap/scss/bootstrap';
+
+body{
+    .second{
+        background-image: url(../Assests/Images/connekt.png),url(../Assests/Images/secondbg.png);
+        background-repeat: no-repeat,no-repeat;
+        background-position-x: right,bottom right;
+         position: relative,absolute;
+         
+    }
+}
+
