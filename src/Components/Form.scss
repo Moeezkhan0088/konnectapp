@@ -1,0 +1,23 @@
+.frm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 975px;
+    width: 100%;
+    gap: 20px;
+    background-image: url(../Assests/Images/connekt.png);
+    background-position-x:right;
+    background-repeat: no-repeat;
+    .one{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 602px;
+        height: 366px;
+    }
+    .two{
+        background-color: #2A8FC2;
+        width: 622px;
+        height: 466px;
+    }
+}

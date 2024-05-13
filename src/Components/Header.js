@@ -5,10 +5,10 @@ import SectionFirst from './SectionFirst';
 
 const Header = () => {
     return (
-        <div style={{backgroundImage : `url(${bg})`, backgroundRepeat : 'no-repeat' , height : '100vh'}}>
+        <div className='' style={{backgroundImage : `url(${bg})`, backgroundRepeat : 'no-repeat' , height : '894px'}}>
             <NavBar />
-            <div>
-                <hr style={{border : '1px solid white' , width : '1170px' , marginLeft : '195px'}}>
+            <div className='container'>
+                <hr style={{border : '1px solid white' , width : '1270px'}}>
                 </hr>
             </div>
             <div>
