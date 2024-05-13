@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  .container.section{
        margin-top: 89px;
        display: flex;
@@ -58,3 +59,80 @@
       }
        }
       
+=======
+.section-first-container {
+    height: 100vh;
+    width: 586px;
+    margin: auto;
+    margin-top: 89px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+  
+    img {
+      max-width: 100%;
+    }
+  
+    .section-title {
+      font-size: 95px;
+      font-weight: 900;
+      line-height: 109px;
+    }
+  
+    .section-subtitle {
+      display: flex;
+      align-items: center;
+  
+      span {
+        font-size: 95px;
+        font-weight: 400;
+        line-height: 109px;
+  
+        &.section-subtitle-divider {
+          padding-left: 30px;
+        }
+      }
+    }
+  
+    .section-buttons {
+      display: flex;
+      align-items: center;
+  
+      .learn-more-button {
+        background-color: #2a8fc2;
+        border: none;
+        border-radius: 70px;
+        padding: 21px 48px;
+        font-size: 20px;
+        color: white;
+        margin-left: 10px;
+        height: 75px;
+        width: 215px;
+      }
+  
+      hr {
+        border: 3px solid #ffffff;
+        width: 84px;
+        margin-left: 250px;
+        margin-top: 10px;
+        opacity: 1.25;
+        border-radius: 75px;
+      }
+  
+      .section-description {
+        width: 626px;
+        height: 145px;
+        line-height: 29px;
+        font-size: 20px;
+        font-weight: 300;
+      }
+  
+      .bold-text {
+        font-weight: 900;
+      }
+    }
+  }
+  
+>>>>>>> fcf7a5c06723b61e936dfa7dbe30f5aa237992e6
