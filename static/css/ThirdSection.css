@@ -1,0 +1,33 @@
+.body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 282px;
+  background-image: url(../Assests/Images/connect1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #2A8FC2;
+}
+.body .main {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.body .main .first {
+  font-size: 100px;
+  line-height: 121px;
+  color: white;
+  font-weight: 900;
+}
+.body .main .second {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 33px;
+  color: white;
+}
